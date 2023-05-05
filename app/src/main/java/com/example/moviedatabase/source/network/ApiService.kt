@@ -1,6 +1,6 @@
-package com.example.moviedatabase.network
+package com.example.moviedatabase.source.network
 
-import com.example.moviedatabase.network.models.Movie
+import com.example.moviedatabase.models.Movie
 import retrofit2.http.GET
 
 interface ApiService {

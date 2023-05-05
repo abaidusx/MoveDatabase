@@ -1,4 +1,4 @@
-package com.example.moviedatabase.network.models
+package com.example.moviedatabase.models
 
 data class Movie(
     val id: String,

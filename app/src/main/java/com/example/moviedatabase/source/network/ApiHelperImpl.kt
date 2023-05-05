@@ -1,4 +1,4 @@
-package com.example.moviedatabase.network
+package com.example.moviedatabase.source.network
 
 class ApiHelperImpl(private  val apiService: ApiService): ApiHelper {
 

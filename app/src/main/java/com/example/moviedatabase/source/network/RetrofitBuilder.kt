@@ -1,4 +1,4 @@
-package com.example.moviedatabase.network
+package com.example.moviedatabase.source.network
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
