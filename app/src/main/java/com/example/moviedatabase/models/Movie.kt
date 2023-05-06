@@ -2,10 +2,10 @@ package com.example.moviedatabase.models
 
 data class Movie(
     val id: String,
-    val primaryImage: Image,
-    val titleType: TitleType,
-    val titleText: Title,
-    val releaseDate: ReleaseDate,
+    val primaryImage: Image?,
+    val titleType: TitleType?,
+    val titleText: Title?,
+    val releaseDate: ReleaseDate?,
 )
 
 data class Image(val id: String, val width: Double, val height: Double, val url: String)

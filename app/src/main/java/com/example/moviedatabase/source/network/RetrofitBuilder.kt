@@ -5,7 +5,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitBuilder {
-    private const val BASE_URL = "https://moviesdatabase.p.rapidapi.com/"
+    private const val BASE_URL = "https://moviesdatabase.p.rapidapi.com/title/"
 
     private val okHttpClient = OkHttpClient()
         .newBuilder()

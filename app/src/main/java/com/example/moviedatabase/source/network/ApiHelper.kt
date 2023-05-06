@@ -1,9 +1,10 @@
 package com.example.moviedatabase.source.network
 
-import com.example.moviedatabase.models.Movie
+import com.example.moviedatabase.models.UpcomingMovies
+import retrofit2.Response
 
 interface ApiHelper {
 
-    suspend fun getUpcomingMovies(): List<Movie>
+    suspend fun getUpcomingMovies(): Response<UpcomingMovies>
 
 }
